@@ -78,12 +78,12 @@ def main(page: ft.Page):
     # Componentes
 
     msg_sucesso = ft.SnackBar(
-        content=ft.Text("Nome salvo com sucesso"),
+        content=ft.Text("nome salvo"),
         bgcolor=Colors.GREEN,
     )
 
     msg_error = ft.SnackBar(
-        content=ft.Text("Preencha o campo"),
+        content=ft.Text("preencha o campo"),
         bgcolor=Colors.RED,
     )
 

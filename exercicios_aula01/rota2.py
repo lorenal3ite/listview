@@ -54,8 +54,8 @@ def main(page: ft.Page):
     page.on_view_pop = voltar
     page.go(page.route)
     titulo = ft.TextField(label="Título", hint_text="Digite o titulo do livro")
-    descricao = ft.TextField(label="Descrição", hint_text="Digite a descrição do livro")
-    categoria = ft.TextField(label="Categoria", hint_text="Digite a categoria do livro")
+    descricao = ft.TextField(label="Descricao", hint_text="Escrea a descricao do livro")
+    categoria = ft.TextField(label="Categoria", hint_text="Escreva a categoria do livro")
     autor = ft.TextField(label="Autor", hint_text="Digite a autor do livro")
 
 ft.app(main)

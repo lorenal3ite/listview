@@ -7,13 +7,12 @@ from flet.core.textfield import TextField
 
 
 def main(page: ft.Page):
-    # Configuração da pagina
     page.title = "Exemplos de rota"
     page.theme_mode = ft.ThemeMode.DARK  # ou ft.ThemeMode.DARK
     page.window.width = 375
     page.window.height = 667
 
-    # Definição de funções
+#definir funcoes
 
     def gerar_rotas(e):
         page.views.clear()
